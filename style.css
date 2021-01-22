@@ -30,3 +30,12 @@ a{
 a:hover {
   background-color: #F3EAC2;
 }
+
+img{
+  display: flex;
+  justify-content: center;
+    width: 50%;
+   margin: auto;
+   margin-top: 10px;
+   border: 5px solid black;
+}
