@@ -9,6 +9,8 @@ h1{
   justify-content: center;
 }
 nav{
+  display: flex;
+  justify-content: center;
   list-style-type: none;
   margin:0;
   padding: 0;
