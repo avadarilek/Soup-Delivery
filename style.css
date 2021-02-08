@@ -4,9 +4,34 @@ body{
   background-color: #FFE0D8;
 }
 
-h1{
+h1.name{
   display: flex;
   justify-content: center;
+  margin-top: 40px;
+  font-size: 75px;
+  font-style: oblique;
+  font-family: fantasy;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 30px;
+
+}
+p{
+  display: flex;
+  justify-content: center;
+
+}
+.place-order{
+  display: flex;
+  justify-content: center;
+  background-color: #EC524B;
+
+}
+.title{
+  background-color: #9AD3BC;
 }
 nav{
   display: flex;
@@ -38,6 +63,13 @@ img{
    margin: auto;
    margin-top: 10px;
    border: 5px solid black;
+}
+#logo{
+  display: flex;
+  justify-content: center;
+  border: none;
+  height: 20%;
+  width: 20%;
 }
 
 #review1{
