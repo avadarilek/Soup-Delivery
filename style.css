@@ -7,7 +7,7 @@ body{
 h1.name{
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 0px;
   font-size: 75px;
   font-style: oblique;
   font-family: fantasy;
@@ -24,9 +24,23 @@ p{
   justify-content: center;
 
 }
+form{
+margin-left: 500px;
+margin-top: 20px;
+}
+label{
+  font-size: 25px;
+
+}
+input{
+
+  padding:10px;
+  box-sizing: border-box;
+}
 .place-order{
   display: flex;
   justify-content: center;
+  margin-top: 50px;
   background-color: #EC524B;
 
 }
@@ -63,6 +77,10 @@ img{
    margin: auto;
    margin-top: 10px;
    border: 5px solid black;
+}
+.spacer{
+  padding: 500px;
+  background-color: #FFE0D8;
 }
 #logo{
   display: flex;
@@ -110,6 +128,36 @@ img{
   top: 400px;
   z-index: 4;
   background-color: #bbdfc8;
+  border-radius: 10px;
+  padding: 5px;
+  padding-bottom: 100px;
+}
+#review5{
+  position: absolute;
+  left:750px;
+  top: 500px;
+  z-index: 5;
+  background-color: #c3aed6;
+  border-radius: 10px;
+  padding: 5px;
+  padding-bottom: 100px;
+}
+#review6{
+  position: absolute;
+  left:900px;
+  top: 600px;
+  z-index: 6;
+  background-color: #a1cae2;
+  border-radius: 10px;
+  padding: 5px;
+  padding-bottom: 100px;
+}
+#review7{
+  position: absolute;
+  left:1050px;
+  top: 700px;
+  z-index: 7;
+  background-color: #f8a1d1;
   border-radius: 10px;
   padding: 5px;
   padding-bottom: 100px;
